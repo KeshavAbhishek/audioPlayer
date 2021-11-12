@@ -1,0 +1,36 @@
+<!-- Unmuted Image Link https://cdn.iconscout.com/icon/free/png-256/unmute-433180.png -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player | KeshavAbhishek.com</title>
+    <link rel="stylesheet" href="mp3.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="imageLogo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzSmzTQFf9ZsAR81QMd7rbiV_0hw_2qrmT6w&usqp=CAU">
+            <div id="cover"></div>
+        </div>
+    </div>
+    <div id="addSongLogo">
+        <input type="file" id="addSongOpenFile" accept="audio/mp3">
+        <img src="https://keshavabhishek.github.io/web/loadMP3File.jpg" onclick="selectSong_and_Play()" id='loadSong'>
+        <!-- <button id="loadSongFinally">Play Another</button> -->
+    </div>
+    <audio src="" controls id='audioPlayerControlsBar' autoplay></audio>
+    <!-- <div id="controller">
+        <img src="play.png" id="playpausebutton" onclick="pasueunpauseSong()">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/unmute-433180.png" id="unmuted" width="300px" onclick="mute()">
+        <div id="musicBar">
+            <span id="songInstance">00:00</span>
+            <div id="mainSongBar"></div>
+            <span id="totalSongLenth">00:00</span>
+        </div>
+    </div> -->
+    <script src="mp3.js"></script>
+</body>
+</html>
