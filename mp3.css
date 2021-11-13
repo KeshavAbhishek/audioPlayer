@@ -64,7 +64,7 @@ body{
 #addSongLogo img{
     cursor: pointer;
     margin-top: 5vh;
-    box-shadow: 0.15rem 0.15rem 0 #000;
+    box-shadow: 0.35rem 0.35rem 0 #000;
     -webkit-user-drag: none;
     border-radius: 10%;
 }

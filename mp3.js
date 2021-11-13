@@ -26,13 +26,13 @@ document.getElementById('addSongOpenFile').addEventListener('change',()=>{
 });
 
 document.getElementById('loadSong').addEventListener('mousedown',()=>{
-    document.getElementById('loadSong').style.transform='translateX(0.15em)';
-    document.getElementById('loadSong').style.transform='translateY(0.15em)';
+    document.getElementById('loadSong').style.transform='translateX(0.35rem)';
+    document.getElementById('loadSong').style.transform='translateY(0.35rem)';
     document.getElementById('loadSong').style.boxShadow='none';
 });
 
 document.getElementById('loadSong').addEventListener('mouseup',()=>{
-    document.getElementById('loadSong').style.transform='translateX(-0.15em)';
-    document.getElementById('loadSong').style.transform='translateY(-0.15em)';
-    document.getElementById('loadSong').style.boxShadow='0.15em 0.15em 0em #000';
+    document.getElementById('loadSong').style.transform='translateX(-0.35rem)';
+    document.getElementById('loadSong').style.transform='translateY(-0.35rem)';
+    document.getElementById('loadSong').style.boxShadow='0.35rem 0.35rem 0em #000';
 });
