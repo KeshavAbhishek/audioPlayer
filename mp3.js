@@ -1,15 +1,3 @@
-var on = 1;
-function mute(){
-    if(on==1){
-        document.getElementById('unmuted').setAttribute('src','https://keshavabhishek.github.io/web/mute.jpg');
-        on = 0;
-    }
-    else if(on==0){
-        document.getElementById('unmuted').setAttribute('src','https://cdn.iconscout.com/icon/free/png-256/unmute-433180.png');
-        on = 1;
-    };
-};
-
 var pause = 0;
 function pasueunpauseSong(){
     if(pause==1){
@@ -24,7 +12,8 @@ function pasueunpauseSong(){
 
 function playme(){
     var song=document.getElementById('audioPlayerControlsBar');
-    song.setAttribute('src',document.getElementById('addSongOpenFile').files[0].name);
+    // song.setAttribute('src',document.getElementById('addSongOpenFile').files[0].name);
+    song.setAttribute('src','https://keshavabhishek.github.io/audioPlayer/E1.mp3');
 };
 
 function selectSong_and_Play(){
