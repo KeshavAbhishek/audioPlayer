@@ -12,8 +12,7 @@ function pasueunpauseSong(){
 
 function playme(){
     var song=document.getElementById('audioPlayerControlsBar');
-    // song.setAttribute('src',document.getElementById('addSongOpenFile').files[0].name);
-    song.setAttribute('src','https://keshavabhishek.github.io/audioPlayer/E1.mp3');
+    song.setAttribute('src',document.getElementById('addSongOpenFile').files[0].name);
 };
 
 function selectSong_and_Play(){
