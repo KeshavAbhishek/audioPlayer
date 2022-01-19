@@ -23,6 +23,7 @@ document.getElementById('addSongOpenFile').addEventListener('change', function(e
     // if(document.getElementById('addSongOpenFile').files[0].name!=''){
     //     playme();
     // }
+    alert('Do you want to upload ?')
     console.log(event.target.files[0].webkitRelativePath)
 });
 
