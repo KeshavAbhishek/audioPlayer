@@ -23,7 +23,7 @@ document.getElementById('addSongOpenFile').addEventListener('change', function(e
     // if(document.getElementById('addSongOpenFile').files[0].name!=''){
     //     playme();
     // }
-    console.log(event.target.files)
+    console.log(event.target.files[0].webkitRelativePath)
 });
 
 document.getElementById('loadSong').addEventListener('mousedown',()=>{
