@@ -19,10 +19,11 @@ function selectSong_and_Play(){
     var openfile = document.getElementById('addSongOpenFile').click();
 };
 
-document.getElementById('addSongOpenFile').addEventListener('change',()=>{
-    if(document.getElementById('addSongOpenFile').files[0].name!=''){
-        playme();
-    }
+document.getElementById('addSongOpenFile').addEventListener('change', function(event){
+    // if(document.getElementById('addSongOpenFile').files[0].name!=''){
+    //     playme();
+    // }
+    console.log(event.target.files)
 });
 
 document.getElementById('loadSong').addEventListener('mousedown',()=>{
